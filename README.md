@@ -1,4 +1,4 @@
-# TP API REST
+# TP API REST AVANZADO
 
 Este es un proyecto de ejemplo realizado con JPA, Envers, y una base de datos en memoria H2. El proyecto está diseñado para demostrar el uso de entidades, relaciones y auditoría en un contexto de API REST.
 
