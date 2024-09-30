@@ -1,6 +1,6 @@
 # TP API REST AVANZADO
 
-Este es un proyecto de ejemplo realizado con JPA, Envers, y una base de datos en memoria H2. El proyecto está diseñado para demostrar el uso de entidades, relaciones y auditoría en un contexto de API REST.
+Este proyecto es una API REST avanzada construida con Spring Boot, que abarca diversos conceptos y funcionalidades avanzadas como la creación del modelo de datos usando JPA/Hibernate, reutilización de código, queries personalizadas, paginación y la integración de OpenAPI (Swagger) para probar la API.
 
 ## Tecnologías Utilizadas
 
@@ -8,6 +8,9 @@ Este es un proyecto de ejemplo realizado con JPA, Envers, y una base de datos en
 - **JPA (Java Persistence API)**: Para la persistencia de datos.
 - **Hibernate Envers**: Para la auditoría de cambios en las entidades.
 - **H2 Database**: Base de datos en memoria para pruebas.
+- **OpenAPI/Swagger** (Para documentación y pruebas de la API)
+- **Gradle**: Lenguaje de construcción de proyectos.
+
 
 ## Configuración del Proyecto
 
@@ -21,7 +24,8 @@ Este es un proyecto de ejemplo realizado con JPA, Envers, y una base de datos en
 - JPA
 - Hibernate
 - Java Persistence API
-- OpenAPI
+- OpenAPI/Swagger
+
 
 ## Estructura del Proyecto
 - **audit**: Contiene la clase Revision.
@@ -36,7 +40,7 @@ Este es un proyecto de ejemplo realizado con JPA, Envers, y una base de datos en
 Descargar el repositorio de GitHub.
 
 ```bash
-git clone https://github.com/XxFabio24xX/TPApiRest
+git clone https://github.com/XxFabio24xX/TPApiRestAvanzado
 ```
 ### Paso 2
 Abrir el proyecto en IntelliJ IDEA.
@@ -49,18 +53,6 @@ Ejecutar el archivo 'Inicial1Application.java' dentro del proyecto.
   [H2 Console](http://localhost:8080/h2-console)
   - Abrir la consola de OPEN API: ("localhost:8080/swagger-ui/index.html")\
   [OPEN API](http://localhost:8080/swagger-ui/index.html)
-
-
-
-## Imagenes del Proyecto
-### Entidades Creadas en H2
-![H2](./capturas%20proyecto/Captura%20H2.png)
-
-### Vista de OPEN API
-![OPEN API](./capturas%20proyecto/Open%20API.png)
-
-### Vista de Persona-Controller
-![PERSONA-CONTROLLER](./capturas%20proyecto/Controller.png)
 
 ## Autor
 
